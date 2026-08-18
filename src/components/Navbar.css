@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(128, 81, 81);
+    color: aliceblue;
+    padding-inline: 2vw;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-inline: 6vw;
+}
+
+.links span{
+    cursor: pointer;
+}
+
+.links span:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+
