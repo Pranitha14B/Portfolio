@@ -1,0 +1,56 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f5eee6;
+    color: rgb(128, 81, 81);
+
+    padding: 2vh 4vw;
+    min-height: 120px;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.vertical {
+    width: 1px;
+    height: 80px;
+    background-color: rgb(128, 81, 81);
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.socials img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.socials img:hover {
+    transform: scale(1.15);
+}

@@ -10,9 +10,8 @@ function Navbar() {
         <span>Projects</span>
         <span>About Me</span>
         <span>Contact Me</span>
+        <span>Resume </span>
       </div>
-
-      <button>View Resume</button>
     </nav>
   )
 }

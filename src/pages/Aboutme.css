@@ -1,0 +1,20 @@
+.page-content {
+    padding: 40px 8vw;
+}
+
+.page-content h3 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(128, 81, 81);
+}
+
+.page-content p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: rgb(128, 81, 81);
+    font-weight: bold;
+    font-style: italic;
+}
