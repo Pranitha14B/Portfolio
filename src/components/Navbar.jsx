@@ -1,9 +1,10 @@
 import './Navbar.css'
+import name from "../assets/name.svg";
 
 function Navbar() {
   return (
     <nav>
-      <h2>Pranitha</h2>
+      <img className="logo" src={name} alt="Pranitha" />
 
       <div className='links'>
         <span>Home</span>

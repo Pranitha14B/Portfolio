@@ -3,9 +3,16 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(128, 81, 81);
+    background-color: #8F6262;
     color: aliceblue;
     padding-inline: 2vw;
+}
+
+.logo {
+    width: 18vw;
+    height: 6vw;
+    object-fit: contain;
+    border-radius: 8px;
 }
 
 .links{

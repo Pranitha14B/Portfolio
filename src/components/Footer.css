@@ -4,7 +4,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 
-    background-color: #f5eee6;
+    background-color: #F3EDE5;
     color: rgb(128, 81, 81);
 
     padding: 2vh 4vw;
@@ -21,6 +21,14 @@ footer h2 {
     flex-direction: row;
     align-items: center;
     gap: 3vw;
+}
+
+
+.logo {
+    width: 18vw;
+    height: 6vw;
+    object-fit: contain;
+    border-radius: 8px;
 }
 
 .services {

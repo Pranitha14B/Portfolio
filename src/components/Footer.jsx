@@ -2,13 +2,14 @@ import facebook from "../assets/facebook.png";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import gmail from "../assets/gmail.png";
+import name from "../assets/name.svg";
 
 import "./Footer.css";
 
 export default function Footer() {
     return(
         <footer>
-            <h2>Pranitha</h2>
+            <img className="logo" src={name} alt="Pranitha" />
             <div className="footer-right">
                 <div className="services">
                     <span>Frontend Developer</span>
